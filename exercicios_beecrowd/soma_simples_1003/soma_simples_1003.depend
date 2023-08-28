@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1693257622 source:/home/gustavo/Documentos/GitHub/rep_local/C/exercicios_beecrowd/soma_simples_1003/main.c
+	<stdio.h>
+	<stdlib.h>
+
