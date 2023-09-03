@@ -51,3 +51,10 @@ Module.symvers
 Mkfile.old
 dkms.conf
 *.json
+exercicios_beecrowd/media1_1005/bin/Release/media1_1005
+exercicios_beecrowd/media1_1005/main
+exercicios_beecrowd/media1_1005/media1_1005.cbp
+exercicios_beecrowd/media1_1005/media1_1005.depend
+*.layout
+exercicios_beecrowd/produto_simples_1004/bin/Release/produto_simples_1004
+*.cbp
