@@ -5,12 +5,16 @@
 
 int horas(int h1,int m1,int h2,int m2){
 
-    int resul;
+    int resul,calc1,calc2;
 
-    resul= ((h2*60)+m2)-((h1*60)+m1);
+    calc1=(h1*60)+m1;
+    calc2=(h2*60)+m2;
 
+    if(h1 > h2 || (h1 == h2 && m1>m2)){
+        calc2+=24*60;
+    }
 
-    return resul;
+    return calc2-calc1;
 }
 
 
@@ -23,12 +27,16 @@ int main(){
 
 	scanf("%d %d %d %d",&h1,&m1,&h2,&m2);
 
+	if(h1==0&&h2==0&&m1==0&&m2==0){
+        break;
+	}
+
 	res=horas(h1,m1,h2,m2);
 
 	printf("%d\n",res);
 
 
-	} while(h1&&m1 || h2&&m2!=0);
+	} while(1);
 
 	return 0;
 }
